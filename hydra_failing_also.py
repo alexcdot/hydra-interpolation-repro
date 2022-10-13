@@ -2,7 +2,6 @@ import hydra
 from hydra.core.config_store import ConfigStore
 from omegaconf import DictConfig, OmegaConf
 from dataclasses import dataclass
-from typing import Optional
 
 @dataclass
 class TableConfig:
@@ -18,7 +17,7 @@ class DatabaseConfig:
 
 @dataclass
 class ModelConfig:
-    data_source: Optional[TableConfig] = None
+    data_source: TableConfig = TableConfig()
 
 @dataclass
 class ServerConfig:

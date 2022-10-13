@@ -1,0 +1,6 @@
+driver: postgresql
+user: user
+password: password
+table_cfg:
+    rows: 1
+    cols: 2

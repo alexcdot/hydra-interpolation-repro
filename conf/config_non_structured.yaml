@@ -1,0 +1,3 @@
+defaults:
+- db: database_non_structured
+- model: network_failing
