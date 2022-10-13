@@ -1,0 +1,4 @@
+defaults:
+- server
+- db: database
+- model: network_failing

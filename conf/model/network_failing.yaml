@@ -1,0 +1,1 @@
+data_source: ${db.table_cfg}
